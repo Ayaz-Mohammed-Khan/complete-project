@@ -1,127 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="index.css" rel="stylesheet">
-    <style>
-        label {
-            position: fixed;
-            width: 45px;
-            height: 22px;
-            left: 220px;
-            top: 400px;
-            border: 2px solid;
-            border-radius: 20px;
-            border-color: whitesmoke;
-        }
+    <link href="index.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+  </head>
 
-        label:before {
-            position: absolute;
-            content: "";
-            width: 17px;
-            height: 16px;
-            left: 1px;
-            top: 1px;
-            border-radius: 60%;
-            cursor: pointer;
-            background: rgb(248, 249, 250);
-            transition: 0.4s;
-
-
-        }
-
-        label.active:before {
-            left: 24px;
-            background: black;
-            border-radius: 20px;
-            border-color: black;
-            color: white;
-
-
-
-        }
-
-
-
-        body.night {
-            background: white;
-            color: black;
-            border-color: black;
-        }
-
-        h6,
-        body.night p {
-            color: black;
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="" class="nav-branding">NAYM</a>
-            <ul class="nav-menu">
-
-                <li class="nav-item">
-                    <a href="https://www.google.co.in/" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">CONTACT</a>
-                </li>
-                <li class="nav-item">
-
-                </li>
-
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
+  <body id="Body">
+    <header id="Header">
+      <nav class="navbar">
+        <a href="" class="nav-branding">NAYM</a>
+        
+        <ul class="nav-menu">
+            <li class="nav-item"><label id="dark-change"></label></li>
+          <li class="nav-item">
+            <a href="https://www.google.co.in/" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">CONTACT</a>
+          </li>
+          <li class="nav-item"></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in dignissimos aspernatur iste! Sequi error
-        nesciunt fuga, ut qui aspernatur non tempore suscipit dolorem officia, enim optio modi, iure vel molestias
-        tenetur neque. Hic quasi iste ratione architecto dolorem eveniet laboriosam, fugit odio autem reiciendis facilis
-        voluptates eius deserunt quis vero vitae velit aliquam quam consequatur tempora delectus quas! Molestiae
-        voluptates provident hic commodi iste recusandae accusamus, corrupti voluptas dicta animi deserunt
-        necessitatibus cumque itaque sunt architecto doloremque quo fugiat illum possimus eius, dolorem modi ex sint
-        autem. Eligendi quos maxime facere fuga ullam necessitatibus quisquam quam distinctio et enim! Rerum nobis
-        voluptate quam accusantium hic! Deserunt voluptatem, voluptate et neque optio voluptas temporibus cum numquam
-        sint pariatur voluptatum doloribus at ipsam iusto, quibusdam nihil quidem cumque totam. Nulla assumenda cum
-        reiciendis commodi repellat possimus mollitia qui eos esse provident dolorem ab harum exercitationem fugit
-        repellendus illo aut, modi deserunt suscipit enim? Debitis voluptatem temporibus, laudantium reiciendis, iste
-        provident culpa incidunt fugit sint architecto libero, tenetur veniam! Facilis, perferendis praesentium animi
-        magni quia dolore minus quisquam maiores quos aut illum voluptates maxime ut, cupiditate velit neque possimus id
-        mollitia quibusdam temporibus soluta repudiandae. Sed iure, est alias nesciunt ipsam, optio excepturi ipsum
-        doloribus suscipit repellendus ex in fuga incidunt id eveniet qui aperiam omnis! Dolorum voluptas minus animi,
-        aliquid voluptates facere sit vel nemo eos repellendus ut dolor eum, tenetur suscipit minima at sed.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in
+      dignissimos aspernatur iste! Sequi error nesciunt fuga, ut qui aspernatur
+      non tempore suscipit dolorem officia, enim optio modi, iure vel molestias
+      tenetur neque. Hic quasi iste ratione architecto dolorem eveniet
+      laboriosam, fugit odio autem reiciendis facilis voluptates eius deserunt
+      quis vero vitae velit aliquam quam consequatur tempora delectus quas!
+      Molestiae voluptates provident hic commodi iste recusandae accusamus,
+      corrupti voluptas dicta animi deserunt necessitatibus cumque itaque sunt
+      architecto doloremque quo fugiat illum possimus eius, dolorem modi ex sint
+      autem. Eligendi quos maxime facere fuga ullam necessitatibus quisquam quam
+      distinctio et enim! Rerum nobis voluptate quam accusantium hic! Deserunt
+      voluptatem, voluptate et neque optio voluptas temporibus cum numquam sint
+      pariatur voluptatum doloribus at ipsam iusto, quibusdam nihil quidem
+      cumque totam. Nulla assumenda cum reiciendis commodi repellat possimus
+      mollitia qui eos esse provident dolorem ab harum exercitationem fugit
+      repellendus illo aut, modi deserunt suscipit enim? Debitis voluptatem
+      temporibus, laudantium reiciendis, iste provident culpa incidunt fugit
+      sint architecto libero, tenetur veniam! Facilis, perferendis praesentium
+      animi magni quia dolore minus quisquam maiores quos aut illum voluptates
+      maxime ut, cupiditate velit neque possimus id mollitia quibusdam
+      temporibus soluta repudiandae. Sed iure, est alias nesciunt ipsam, optio
+      excepturi ipsum doloribus suscipit repellendus ex in fuga incidunt id
+      eveniet qui aperiam omnis! Dolorum voluptas minus animi, aliquid
+      voluptates facere sit vel nemo eos repellendus ut dolor eum, tenetur
+      suscipit minima at sed.
+    </p>
 
     <h6>..</h6>
-    <label id="dark-change"></label>
+
+    <a class="scroll" href="#Header">
+      <img id="arrow" src="upload.png" alt="scroll-btn" />
+    </a>
     <script src="index.js"></script>
-
-    <button>
-        <a href=""><img src="upload.png" href="header" width="40px" height="40px"></i>
-        </a>
-    </button>
-
-    <script>
-        var content = document.getElementsByTagName('body')[0];
-        var darkMode = document.getElementById('dark-change');
-        darkMode.addEventListener('click', function () {
-            darkMode.classList.toggle('active');
-            content.classList.toggle('night');
-        })
-    </script>
-
-</body>
-
+  </body>
 </html>
