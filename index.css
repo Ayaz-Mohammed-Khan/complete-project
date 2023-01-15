@@ -33,7 +33,7 @@ a {
 p,
 h6 {
   color: white;
-  margin: 0;
+  margin: 50px;
   padding: 0;
 }
 
@@ -116,6 +116,7 @@ body.night p {
 .hamburger {
   display: none;
   cursor: pointer;
+  margin-right: 0 ;
 }
 
 .bar {
@@ -131,6 +132,7 @@ body.night p {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+    margin-right: 20px;
   }
 
   .hamburger.active.bar:nth-child(2) {
@@ -161,7 +163,8 @@ body.night p {
     margin: 16px 0;
   }
   label {
-    right: 47%;
+    right: 44%;
+    top: 5px;
   }
   .nav-menu.active {
     left: 0;
@@ -190,6 +193,12 @@ body.night p {
   #arrow {
     width: 20px;
     height: 20px;
+  }
+  p {
+    margin: 20px;
+  }
+  .nav-branding {
+    padding-left: 20px;
   }
 }
 
