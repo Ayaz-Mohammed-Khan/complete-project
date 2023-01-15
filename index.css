@@ -20,6 +20,7 @@ body {
 
 body header {
   background-color: black;
+  border-bottom: 1px solid white;
 }
 
 li {
@@ -180,6 +181,7 @@ body.night p {
   text-align: center;
   background-color: white;
   border: 1px solid black;
+  border-radius: 10px;
 }
 #arrow {
   width: 40px;
@@ -189,6 +191,7 @@ body.night p {
   .scroll {
     width: 25px;
     height: 25px;
+    border-radius: 5px;
   }
   #arrow {
     width: 20px;
